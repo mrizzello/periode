@@ -10,3 +10,11 @@ body {
         font-family: 'Comfortaa', cursive;
     }
 }
+
+.container.item-pause {
+    .progress-bar {
+        .mdc-linear-progress__bar-inner {
+            border-color: #666;
+        }
+    }
+}

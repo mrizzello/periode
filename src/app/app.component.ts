@@ -15,6 +15,7 @@ export class AppComponent implements OnDestroy {
   remainingSeconds!: number;
   progress!: number;
   interval: any;
+  cssClass: string = 'item-period';
 
   ngOnInit() {
     this.updateValues();
@@ -65,6 +66,7 @@ export class AppComponent implements OnDestroy {
       
       if (startTime <= currentTime && currentTime <= endTime) {
         this.currentPeriod = currentPeriod;
+        this.cssClass = 'item-period';
         return;
       }
       
@@ -74,6 +76,7 @@ export class AppComponent implements OnDestroy {
           start: endTime.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'}),
           end: this.parseTime(nextPeriod.start).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})
         };
+        this.cssClass = 'item-pause';
         return;
       }
     }
