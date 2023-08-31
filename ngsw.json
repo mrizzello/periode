@@ -1,0 +1,85 @@
+{
+  "configVersion": 1,
+  "timestamp": 1693493803706,
+  "index": "/periode/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/periode/favicon.ico",
+        "/periode/index.html",
+        "/periode/main.63451948803d5798.js",
+        "/periode/manifest.webmanifest",
+        "/periode/polyfills.2bd1dbf0272e3c22.js",
+        "/periode/runtime.4b9af8131fb01e7f.js",
+        "/periode/styles.25f8727e455edfd0.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/periode/assets/icons/alarm_black_24dp.png",
+        "/periode/assets/icons/icon-128x128.png",
+        "/periode/assets/icons/icon-144x144.png",
+        "/periode/assets/icons/icon-152x152.png",
+        "/periode/assets/icons/icon-192x192.png",
+        "/periode/assets/icons/icon-384x384.png",
+        "/periode/assets/icons/icon-512x512.png",
+        "/periode/assets/icons/icon-72x72.png",
+        "/periode/assets/icons/icon-96x96.png",
+        "/periode/assets/period.json"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/periode/assets/icons/alarm_black_24dp.png": "7063c601a91fddb621f96b9f73a25a61b17e00fd",
+    "/periode/assets/icons/icon-128x128.png": "705cbddf05a9da7ef3afad42df2365c7f11c178d",
+    "/periode/assets/icons/icon-144x144.png": "f9d8f7574023935f4f515aa1bc250382cd50b7fc",
+    "/periode/assets/icons/icon-152x152.png": "44d0033dc85914bbd20a982a4c7bdc9eca0fb4a1",
+    "/periode/assets/icons/icon-192x192.png": "6c2157009465f97285667169d40d489f3c954b3b",
+    "/periode/assets/icons/icon-384x384.png": "50af1be6db39664f4be9fe85aa89d281bb6a9867",
+    "/periode/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/periode/assets/icons/icon-72x72.png": "efec2d7d4309067e6254df90174496e09944dd97",
+    "/periode/assets/icons/icon-96x96.png": "05cf2019c3ea178bf0fe9cfdc7a9e642e35b8612",
+    "/periode/assets/period.json": "ee416459d1fd08f50fced7e58e50e2e60ca54cb8",
+    "/periode/favicon.ico": "59a6dd48853e1f5bb31277ede2216023c2eabaf0",
+    "/periode/index.html": "df07ea092a620c43e0f71b7bf9308bba3725da09",
+    "/periode/main.63451948803d5798.js": "642064e0f69889d2c6cfb994b6803ec5ae266f47",
+    "/periode/manifest.webmanifest": "98b88ee5efa967026c5f4acbd4c2711b61d45c44",
+    "/periode/polyfills.2bd1dbf0272e3c22.js": "52d7baef449763c9f59835edd392dc39c0a0f3b3",
+    "/periode/runtime.4b9af8131fb01e7f.js": "0d6c77d07aca09e6ad405e91b744cfad24e0aef9",
+    "/periode/styles.25f8727e455edfd0.css": "dd36e6e4f19b44af059beda539f4b415398222f2"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
