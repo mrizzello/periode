@@ -4,8 +4,7 @@
   </span>
 </mat-toolbar>
 <div class="app-container">
-  <div class="container item-pause">
-  <!--div class="container {{cssClass}}"-->
+  <div class="container {{cssClass}}">
     <div *ngIf="currentPeriod" class="current-period">
       <div class="current-time">{{ currentTime | date:'H:mm' }}</div>
       <mat-grid-list cols="12" rowHeight="2:1">
