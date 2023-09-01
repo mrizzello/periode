@@ -55,30 +55,25 @@ export class AppComponent implements OnDestroy {
     if (currentDayOfWeek === 0 || currentDayOfWeek === 6) {
       this.currentPeriod = null;
     }
-    
+
     for (let i = 0; i < this.periodData.length; i++) {
       const currentPeriod = this.periodData[i];
       const nextPeriod = this.periodData[i + 1];
 
       const startTime = this.parseTime(currentPeriod.start);
       const endTime = this.parseTime(currentPeriod.end);
-      
+
       if (startTime <= this.currentTime && this.currentTime <= endTime) {
         this.currentPeriod = currentPeriod;
         this.cssClass = 'item-period';
+        if (currentPeriod.period == 'pause') {
+          this.cssClass = 'item-pause';
+        }
         return;
       }
-      
-      if (nextPeriod && this.currentTime >= endTime && this.currentTime <= this.parseTime(nextPeriod.start)) {
-        this.currentPeriod = {
-          period: 'pause',
-          start: endTime.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'}),
-          end: this.parseTime(nextPeriod.start).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})
-        };
-        this.cssClass = 'item-pause';
-        return;
-      }
+
     }
+
     this.currentPeriod = null;
   }
 

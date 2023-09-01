@@ -27,6 +27,7 @@
 .no-period {
     color: #9FA8DA;
     text-align: center;
+    font-size: 150%;
 }
 
 .current-period {
@@ -44,13 +45,13 @@
 
 .minutes-remaining {
     text-align: right;
-    font-size: 750%;
+    font-size: 850%;
     color: #3F51B5;
 }
 
 .seconds-remaining {
     text-align: left;
-    font-size: 150%;
+    font-size: 200%;
     color: #9FA8DA;
     padding-top: 1.2rem;
 }
@@ -59,12 +60,15 @@
     font-weight: bold;
     color: #9FA8DA;
     text-align: center;
+    font-size: 200%;
+    margin-bottom: 1.2rem;
 }
 
 .start,
 .end {
     width: 100%;
     color: #3F51B5;
+    font-size: 150%;
 }
 
 .end {

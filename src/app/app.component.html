@@ -8,22 +8,22 @@
     <div *ngIf="currentPeriod" class="current-period">
       <div class="current-time">{{ currentTime | date:'H:mm' }}</div>
       <mat-grid-list cols="12" rowHeight="2:1">
-        <mat-grid-tile [colspan]="7" [rowspan]="7">
+        <mat-grid-tile [colspan]="7" [rowspan]="8">
           <span class="minutes-remaining">{{ remainingMinutes.toString().padStart(2, '0') }}</span>
         </mat-grid-tile>
-        <mat-grid-tile [colspan]="5" [rowspan]="7">
+        <mat-grid-tile [colspan]="5" [rowspan]="8">
           <span class="seconds-remaining">{{ remainingSeconds.toString().padStart(2, '0') }}</span>
         </mat-grid-tile>
         <mat-grid-tile [colspan]="12">
           <mat-progress-bar mode="determinate" [value]="progress" class="progress-bar"></mat-progress-bar>
         </mat-grid-tile>
-        <mat-grid-tile [colspan]="4">
+        <mat-grid-tile [colspan]="4" [rowspan]="2">
           <div class="start">{{ currentPeriod.start }}</div>
         </mat-grid-tile>
-        <mat-grid-tile [colspan]="4">
+        <mat-grid-tile [colspan]="4" [rowspan]="2">
           <div class="period">{{ currentPeriod.period }}</div>
         </mat-grid-tile>
-        <mat-grid-tile [colspan]="4">
+        <mat-grid-tile [colspan]="4" [rowspan]="2">
           <div class="end">{{ currentPeriod.end }}</div>
         </mat-grid-tile>
       </mat-grid-list>  

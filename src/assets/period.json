@@ -5,9 +5,19 @@
     "end": "09:05"
   },
   {
+    "period": "pause",
+    "start": "09:05",
+    "end": "09:10"
+  },
+  {
     "period": "P2",
     "start": "09:10",
     "end": "09:55"
+  },
+  {
+    "period": "pause",
+    "start": "09:55",
+    "end": "10:15"
   },
   {
     "period": "P3",
@@ -15,9 +25,19 @@
     "end": "11:00"
   },
   {
+    "period": "pause",
+    "start": "11:00",
+    "end": "11:05"
+  },
+  {
     "period": "P4",
     "start": "11:05",
     "end": "11:50"
+  },
+  {
+    "period": "pause",
+    "start": "11:50",
+    "end": "11:55"
   },
   {
     "period": "P5",
@@ -25,9 +45,19 @@
     "end": "12:40"
   },
   {
+    "period": "pause",
+    "start": "12:40",
+    "end": "12:45"
+  },
+  {
     "period": "P6",
     "start": "12:45",
     "end": "13:30"
+  },
+  {
+    "period": "pause",
+    "start": "13:30",
+    "end": "13:35"
   },
   {
     "period": "P7",
@@ -35,14 +65,29 @@
     "end": "14:20"
   },
   {
+    "period": "pause",
+    "start": "14:20",
+    "end": "14:25"
+  },
+  {
     "period": "P8",
     "start": "14:25",
     "end": "15:10"
   },
   {
+    "period": "pause",
+    "start": "15:10",
+    "end": "15:20"
+  },
+  {
     "period": "P9",
     "start": "15:20",
     "end": "16:05"
+  },
+  {
+    "period": "pause",
+    "start": "16:05",
+    "end": "16:10"
   },
   {
     "period": "P10",
