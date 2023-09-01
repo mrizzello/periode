@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1693567456241,
+  "timestamp": 1693578512530,
   "index": "/periode/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/periode/favicon.ico",
         "/periode/index.html",
-        "/periode/main.7555ac1bcb2ae421.js",
+        "/periode/main.9b48236541721687.js",
         "/periode/manifest.webmanifest",
         "/periode/polyfills.2bd1dbf0272e3c22.js",
         "/periode/runtime.4b9af8131fb01e7f.js",
@@ -54,10 +54,10 @@
     "/periode/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
     "/periode/assets/icons/icon-72x72.png": "efec2d7d4309067e6254df90174496e09944dd97",
     "/periode/assets/icons/icon-96x96.png": "05cf2019c3ea178bf0fe9cfdc7a9e642e35b8612",
-    "/periode/assets/period.json": "ee416459d1fd08f50fced7e58e50e2e60ca54cb8",
+    "/periode/assets/period.json": "c9d1cca1bbe4c3250e46c06fd2a3334c7664bd66",
     "/periode/favicon.ico": "59a6dd48853e1f5bb31277ede2216023c2eabaf0",
-    "/periode/index.html": "999c9da7cb06abe0aaf7d1dacc0d5681629a9480",
-    "/periode/main.7555ac1bcb2ae421.js": "4c4b9add83b4ea23f4ee0b68166507fe461ee53c",
+    "/periode/index.html": "420303709f2bb8d13d2314ce0e22553ca8b2ef70",
+    "/periode/main.9b48236541721687.js": "88bff0b24e89886d290060119e011d8e333a3e6c",
     "/periode/manifest.webmanifest": "c29878c42bc7b6255139c014c6de435e9b0fe04e",
     "/periode/polyfills.2bd1dbf0272e3c22.js": "52d7baef449763c9f59835edd392dc39c0a0f3b3",
     "/periode/runtime.4b9af8131fb01e7f.js": "0d6c77d07aca09e6ad405e91b744cfad24e0aef9",
