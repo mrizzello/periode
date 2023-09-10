@@ -54,11 +54,11 @@ export class AppComponent implements OnDestroy {
 
     if (currentDayOfWeek === 0 || currentDayOfWeek === 6) {
       this.currentPeriod = null;
+      return;
     }
 
     for (let i = 0; i < this.periodData.length; i++) {
       const currentPeriod = this.periodData[i];
-      const nextPeriod = this.periodData[i + 1];
 
       const startTime = this.parseTime(currentPeriod.start);
       const endTime = this.parseTime(currentPeriod.end);
@@ -66,7 +66,7 @@ export class AppComponent implements OnDestroy {
       if (startTime <= this.currentTime && this.currentTime <= endTime) {
         this.currentPeriod = currentPeriod;
         this.cssClass = 'item-period';
-        if (currentPeriod.period == 'pause') {
+        if (currentPeriod.period == 'pause' || currentPeriod.period == 'Bientôt ...') {
           this.cssClass = 'item-pause';
         }
         return;
